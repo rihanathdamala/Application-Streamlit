@@ -36,7 +36,7 @@ def read_pdf_with_pdfplumber(file):
 			all_page_text += page.extract_text()
 		return all_page_text
 
-# define doc file reader funcyion
+# define doc file reader function
 
 
 # define image file reader function
@@ -165,8 +165,8 @@ def main():
 	else:
 		st.subheader("About")
 		st.info("Built with Streamlit")
-		st.success("Elhadji Ngom @stagiare data scientist au sein de la DAI à OIF")
-		st.text("School: Data ScienceTech Institute, copyright Juin 2022")
+		st.success("DAMALA Rihanath @stagiare analyste de données au sein de la DAI à OIF")
+		st.text("School: ESIGELEC, copyright Juin 2022")
 
 
 
